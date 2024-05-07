@@ -82,6 +82,30 @@ body:not(.top-search-open) #top-search a i:nth-child(2) {
 	animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
 }
 
+/* Squad services */
+
+.location-list {
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 130%;
+}
+
+.step-list {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.24;
+	letter-spacing: 0.4px;
+	text-align: center;
+	margin: 0 80px 0 0;
+	color: #07218F;
+}
+
+@media (max-width: 768px) {
+	.step-list {
+		font-size: 14px;
+	}
+}
+
 @keyframes MoveUpInitial {
 	to {
 		transform: translate3d(0,-105%,0);
